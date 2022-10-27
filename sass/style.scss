@@ -1,0 +1,229 @@
+$background-page: rgb(197, 194, 194);
+$urna-color: #c3c9d4;
+@font-face {
+	font-family: Bebas;
+	src: url(../font/BebasNeue-Regular.ttf);
+}
+
+@import "./extra/mediaQuerry.scss";
+@import "./votation.scss";
+@import "./extra/animations.scss";
+
+* {
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:focus {
+	animation: btnAnimation 0.3s;
+}
+
+body {
+	background-color: $background-page;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 90vh;
+}
+
+img {
+	margin-bottom: 50px;
+}
+
+main {
+	width: 1050px;
+	height: 667.8px;
+}
+
+.displayAndPad {
+	background-color: $urna-color;
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.shadowLight {
+	width: 100%;
+	height: 10%;
+	background-color: #d1d3da;
+	position: relative;
+}
+
+.hiddeVertices {
+	width: 5%;
+	height: 120%;
+	background-color: $background-page;
+	position: absolute;
+	left: -3.6%;
+	bottom: 10%;
+	rotate: 20deg;
+}
+
+.hiddeVertices2 {
+	left: unset;
+	right: -3.6%;
+	rotate: -20deg;
+}
+
+.display {
+	height: 75%;
+	width: 54%;
+	background-color: rgb(217, 225, 226);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10%;
+	position: relative;
+}
+
+.defaultDisplay {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10%;
+}
+
+.display img {
+	width: 45%;
+	margin: 0;
+}
+
+.display h2 {
+	font-size: 40px;
+}
+
+.pad {
+	height: 95%;
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2%;
+}
+
+.pad header {
+	width: 100%;
+	height: 20%;
+	background-color: #dddddd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.pad header img {
+	width: 25%;
+	margin: 0;
+}
+
+.pad header h6 {
+	color: black;
+	font-size: 30px;
+	text-align: end;
+}
+
+.pad .buttons {
+	width: 100%;
+	height: 70%;
+	background-color: rgb(39, 39, 39);
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.nums-div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items: center;
+	padding: 5% 12%;
+	height: 80%;
+}
+
+.num {
+	width: 70%;
+	height: 70%;
+	text-align: start;
+	background-color: rgb(15, 15, 15);
+	color: rgb(238, 235, 235);
+	padding: 0.5rem;
+	box-shadow: 1px 3px 2px black;
+	border: none;
+	border-radius: 2px;
+	font-size: 25px;
+}
+
+#zero {
+	grid-column: 2 / 3;
+}
+
+.select-div {
+	width: 100%;
+	height: 25%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.select-div button {
+	height: 50%;
+	width: 25%;
+	font-family: Bebas;
+	font-size: 22px;
+	letter-spacing: 0.7px;
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	border: none;
+	border-radius: 7%;
+}
+
+.branco {
+	background-color: rgb(238, 234, 234);
+	box-shadow: 1px 1px 2px rgb(77, 75, 75);
+}
+
+.laranja {
+	background-color: rgba(255, 102, 0, 0.979);
+	box-shadow: 1px 1px 2px rgb(126, 45, 8);
+}
+
+.select-div .verde {
+	background-color: rgb(9, 160, 9);
+	height: 75%;
+	box-shadow: 1px 1px 2px rgb(11, 51, 3);
+}
+
+.scratchs {
+	width: 100%;
+	height: 10%;
+	background-color: $urna-color;
+	box-shadow: 0px 35px 30px rgba(0, 0, 0, 0.7);
+	border-radius: 0 0 10px 10px;
+	z-index: -5;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.scratch-item {
+	height: 45%;
+	width: 1%;
+	background-color: rgba(0, 0, 0, 0.8);
+}

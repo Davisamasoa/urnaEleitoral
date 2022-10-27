@@ -1,0 +1,26 @@
+.presidente {
+	align-self: flex-start;
+	top: 15%;
+	left: 25%;
+	position: absolute;
+	font-weight: lighter;
+}
+
+.presidente h3 {
+	font-weight: lighter;
+	font-size: 25px;
+}
+
+.inputPresidente {
+	display: flex;
+	position: absolute;
+	left: -10%;
+	top: 100px;
+	gap: 5%;
+}
+
+.presidente input {
+	width: 50px;
+	height: 60px;
+	background-color: transparent;
+}
