@@ -189,6 +189,9 @@
 		top: 39%;
 		font-size: 11px;
 	}
+	.display footer a {
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -282,6 +285,10 @@
 		top: 39%;
 		font-size: 9px;
 	}
+
+	.display footer a {
+		font-size: 12px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -323,5 +330,12 @@
 	.statusCandidate span {
 		top: 39%;
 		font-size: 8px;
+	}
+}
+
+@media (max-width: 450px) {
+	main {
+		width: 370px;
+		height: 235px;
 	}
 }

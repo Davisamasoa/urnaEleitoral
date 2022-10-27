@@ -42,7 +42,6 @@ export function checkCandidate(input1, input2) {
 				fotoCand.src = candidate[0].foto;
 			}
 		});
-		console.log(candidate);
 	}
 
 	if (input1.value == "" || input2.value == "") {
