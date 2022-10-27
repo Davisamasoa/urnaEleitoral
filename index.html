@@ -4,18 +4,33 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Eleição Presidencial 2022</title>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./favicon/site.webmanifest" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
 		<link rel="stylesheet" href="./style/style.css" />
 		<script type="module" defer src="./js/App.js"></script>
 	</head>
 	<body>
-		<div style="display: none">
-			<img
-				src="https://www.tse.jus.br/imagens/fotos/urna-eletronica-30-09-2020-1601508698473/@@images/03265c46-cd35-449d-acad-0f2b8810fb3d.jpeg"
-				alt=""
-			/>
-		</div>
-
 		<main>
 			<header class="shadowLight">
 				<div class="hiddeVertices"></div>
@@ -30,8 +45,9 @@
 					</div>
 
 					<div class="beginVotation">
-						<h2 style="text-align: center">
-							APERTE CONFIRMA PARA INICIAR AS VOTAÇÕES
+						<h2>
+							APERTE <span class="span-confirma">CONFIRMA</span> PARA INICIAR AS
+							VOTAÇÕES
 						</h2>
 					</div>
 
@@ -41,7 +57,28 @@
 							<input type="text" />
 							<input type="text" />
 						</div>
+
+						<div class="statusCandidate none">
+							<p></p>
+							<img src="" alt="" />
+							<span></span>
+						</div>
 					</div>
+
+					<div class="warning">
+						<h2>DESEJA VOTAR EM BRANCO?</h2>
+
+						<p><span class="span-confirma">CONFIRMA</span>PARA SIM</p>
+
+						<p><span class="span-corrige">CORRIGE</span>PARA NÃO</p>
+					</div>
+					<footer>
+						<a
+							target="_blank"
+							href="https://divulgacandcontas.tse.jus.br/divulga/#/estados/2022/2040602022/BR/candidatos"
+							>lista de candidatos</a
+						>
+					</footer>
 				</section>
 				<section class="pad">
 					<header>
@@ -81,5 +118,13 @@
 				<div class="scratch-item"></div>
 			</footer>
 		</main>
+
+		<footer class="footer">
+			<p>Desenvolvido por Davi Samuel</p>
+			<a target="_blank" href="https://github.com/Davisamasoa"
+				><i class="bi bi-github"></i
+			></a>
+		</footer>
+		<audio src=""></audio>
 	</body>
 </html>

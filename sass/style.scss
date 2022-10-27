@@ -5,10 +5,6 @@ $urna-color: #c3c9d4;
 	src: url(../font/BebasNeue-Regular.ttf);
 }
 
-@import "./extra/mediaQuerry.scss";
-@import "./votation.scss";
-@import "./extra/animations.scss";
-
 * {
 	z-index: 1;
 	margin: 0;
@@ -32,6 +28,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	height: 90vh;
+	position: relative;
 }
 
 img {
@@ -85,6 +82,7 @@ main {
 	align-items: center;
 	gap: 10%;
 	position: relative;
+	padding: 1rem;
 }
 
 .defaultDisplay {
@@ -227,3 +225,26 @@ main {
 	width: 1%;
 	background-color: rgba(0, 0, 0, 0.8);
 }
+
+.none {
+	display: none;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+	position: absolute;
+	bottom: -50px;
+}
+
+.footer i {
+	color: black;
+	font-size: 25px;
+}
+
+@import "./votation.scss";
+@import "./extra/mediaQuerry.scss";
+@import "./extra/animations.scss";

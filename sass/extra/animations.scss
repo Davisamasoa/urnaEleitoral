@@ -31,3 +31,13 @@
 		opacity: 1;
 	}
 }
+
+@keyframes flashing {
+	from {
+		border-color: black;
+	}
+
+	to {
+		border-color: rgb(217, 225, 226);
+	}
+}

@@ -1,8 +1,11 @@
-import { confirma } from "./buttons.js";
+import { confirma, finish } from "./buttons.js";
 import { Sessions } from "./handleSessions.js";
+import { validateVote } from "./handleVotation.js";
+import { finishVotation } from "./handleVotation.js";
+
 const displayInit = document.querySelector(".defaultDisplay");
-const beginSession = document.querySelector(".beginVotation");
-const presidenteSession = document.querySelector(".presidente");
+export const beginSession = document.querySelector(".beginVotation");
+export const presidenteSession = document.querySelector(".presidente");
 
 export class Display {
 	static init() {
@@ -35,14 +38,21 @@ export class Display {
 
 	static initVotation() {
 		Display.showOffDisplay(beginSession);
-		console.log("oi");
 	}
 }
 
 presidenteSession.style.display = "none";
 
 confirma.addEventListener("click", () => {
-	Display.initVotation();
-	Display.showOnDisplay(presidenteSession);
-	Sessions.handleInputs();
+	if (beginSession.style.display == "block") {
+		Display.initVotation();
+		Display.showOnDisplay(presidenteSession);
+		Sessions.handleInputs();
+	}
+
+	validateVote();
+
+	if (validateVote() == true) {
+		finishVotation();
+	}
 });
