@@ -414,6 +414,7 @@ main {
   }
   .statusCandidate img {
     top: 50%;
+    width: 40%;
   }
   .statusCandidate span {
     top: 39%;
@@ -530,15 +531,8 @@ main {
   .presidente h3 {
     font-size: 12px;
   }
-  .statusCandidate p {
-    font-size: 8px;
-  }
-  .statusCandidate img {
-    top: 50%;
-  }
-  .statusCandidate span {
-    top: 39%;
-    font-size: 8px;
+  .statusCandidate {
+    right: 8%;
   }
 }
 @media (max-width: 530px) {
@@ -568,14 +562,14 @@ main {
     font-size: 10px;
   }
   .statusCandidate p {
-    font-size: 7px;
+    font-size: 8px;
   }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
-    font-size: 7px;
+    font-size: 8px;
   }
   .display footer a {
     font-size: 12px;
@@ -608,14 +602,14 @@ main {
     font-size: 10px;
   }
   .statusCandidate p {
-    font-size: 6px;
+    font-size: 7px;
   }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
-    font-size: 6px;
+    font-size: 7px;
   }
 }
 @media (max-width: 450px) {
@@ -624,14 +618,14 @@ main {
     height: 235px;
   }
   .statusCandidate p {
-    font-size: 5px;
+    font-size: 7px;
   }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
-    font-size: 5px;
+    font-size: 7px;
   }
   .display footer a {
     font-size: 7px;

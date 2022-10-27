@@ -90,6 +90,7 @@
 
 	.statusCandidate img {
 		top: 50%;
+		width: 40%;
 	}
 	.statusCandidate span {
 		top: 39%;
@@ -233,16 +234,8 @@
 		font-size: 12px;
 	}
 
-	.statusCandidate p {
-		font-size: 8px;
-	}
-
-	.statusCandidate img {
-		top: 50%;
-	}
-	.statusCandidate span {
-		top: 39%;
-		font-size: 8px;
+	.statusCandidate {
+		right: 8%;
 	}
 }
 
@@ -280,7 +273,7 @@
 	}
 
 	.statusCandidate p {
-		font-size: 7px;
+		font-size: 8px;
 	}
 
 	.statusCandidate img {
@@ -288,7 +281,7 @@
 	}
 	.statusCandidate span {
 		top: 39%;
-		font-size: 7px;
+		font-size: 8px;
 	}
 
 	.display footer a {
@@ -330,7 +323,7 @@
 	}
 
 	.statusCandidate p {
-		font-size: 6px;
+		font-size: 7px;
 	}
 
 	.statusCandidate img {
@@ -338,7 +331,7 @@
 	}
 	.statusCandidate span {
 		top: 39%;
-		font-size: 6px;
+		font-size: 7px;
 	}
 }
 
@@ -349,7 +342,7 @@
 	}
 
 	.statusCandidate p {
-		font-size: 5px;
+		font-size: 7px;
 	}
 
 	.statusCandidate img {
@@ -357,7 +350,7 @@
 	}
 	.statusCandidate span {
 		top: 39%;
-		font-size: 5px;
+		font-size: 7px;
 	}
 	.display footer a {
 		font-size: 7px;
