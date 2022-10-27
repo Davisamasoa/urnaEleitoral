@@ -30,11 +30,16 @@
 		font-size: 1.5rem;
 	}
 
+	.statusCandidate p {
+		font-size: 13px;
+	}
+
 	.statusCandidate img {
 		top: 50%;
 	}
 	.statusCandidate span {
 		top: 39%;
+		font-size: 13px;
 	}
 }
 
@@ -80,7 +85,7 @@
 	}
 
 	.statusCandidate p {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	.statusCandidate img {
@@ -88,7 +93,10 @@
 	}
 	.statusCandidate span {
 		top: 39%;
-		font-size: 16px;
+		font-size: 12px;
+	}
+	.display footer a {
+		font-size: 10px;
 	}
 }
 
@@ -127,7 +135,7 @@
 	}
 
 	.statusCandidate p {
-		font-size: 14px;
+		font-size: 11px;
 	}
 
 	.statusCandidate img {
@@ -135,7 +143,7 @@
 	}
 	.statusCandidate span {
 		top: 39%;
-		font-size: 14px;
+		font-size: 11px;
 	}
 }
 
@@ -179,7 +187,7 @@
 	}
 
 	.statusCandidate p {
-		font-size: 11px;
+		font-size: 9px;
 	}
 
 	.statusCandidate img {
@@ -187,10 +195,7 @@
 	}
 	.statusCandidate span {
 		top: 39%;
-		font-size: 11px;
-	}
-	.display footer a {
-		font-size: 15px;
+		font-size: 9px;
 	}
 }
 
@@ -229,7 +234,7 @@
 	}
 
 	.statusCandidate p {
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 	.statusCandidate img {
@@ -237,7 +242,7 @@
 	}
 	.statusCandidate span {
 		top: 39%;
-		font-size: 10px;
+		font-size: 8px;
 	}
 }
 
@@ -275,7 +280,7 @@
 	}
 
 	.statusCandidate p {
-		font-size: 9px;
+		font-size: 7px;
 	}
 
 	.statusCandidate img {
@@ -283,11 +288,15 @@
 	}
 	.statusCandidate span {
 		top: 39%;
-		font-size: 9px;
+		font-size: 7px;
 	}
 
 	.display footer a {
 		font-size: 12px;
+	}
+
+	.display footer a {
+		font-size: 8px;
 	}
 }
 
@@ -321,7 +330,7 @@
 	}
 
 	.statusCandidate p {
-		font-size: 8px;
+		font-size: 6px;
 	}
 
 	.statusCandidate img {
@@ -329,7 +338,7 @@
 	}
 	.statusCandidate span {
 		top: 39%;
-		font-size: 8px;
+		font-size: 6px;
 	}
 }
 
@@ -337,5 +346,20 @@
 	main {
 		width: 370px;
 		height: 235px;
+	}
+
+	.statusCandidate p {
+		font-size: 5px;
+	}
+
+	.statusCandidate img {
+		top: 50%;
+	}
+	.statusCandidate span {
+		top: 39%;
+		font-size: 5px;
+	}
+	.display footer a {
+		font-size: 7px;
 	}
 }

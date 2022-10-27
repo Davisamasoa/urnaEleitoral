@@ -366,11 +366,15 @@ main {
     height: 50px;
     font-size: 1.5rem;
   }
+  .statusCandidate p {
+    font-size: 13px;
+  }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
+    font-size: 13px;
   }
 }
 @media (max-width: 950px) {
@@ -406,14 +410,17 @@ main {
     right: 0;
   }
   .statusCandidate p {
-    font-size: 16px;
+    font-size: 12px;
   }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
-    font-size: 16px;
+    font-size: 12px;
+  }
+  .display footer a {
+    font-size: 10px;
   }
 }
 @media (max-width: 830px) {
@@ -445,14 +452,14 @@ main {
     font-size: 17px;
   }
   .statusCandidate p {
-    font-size: 14px;
+    font-size: 11px;
   }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
-    font-size: 14px;
+    font-size: 11px;
   }
 }
 @media (max-width: 730px) {
@@ -487,17 +494,14 @@ main {
     font-size: 15px;
   }
   .statusCandidate p {
-    font-size: 11px;
+    font-size: 9px;
   }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
-    font-size: 11px;
-  }
-  .display footer a {
-    font-size: 15px;
+    font-size: 9px;
   }
 }
 @media (max-width: 600px) {
@@ -527,14 +531,14 @@ main {
     font-size: 12px;
   }
   .statusCandidate p {
-    font-size: 10px;
+    font-size: 8px;
   }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 @media (max-width: 530px) {
@@ -564,17 +568,20 @@ main {
     font-size: 10px;
   }
   .statusCandidate p {
-    font-size: 9px;
+    font-size: 7px;
   }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
-    font-size: 9px;
+    font-size: 7px;
   }
   .display footer a {
     font-size: 12px;
+  }
+  .display footer a {
+    font-size: 8px;
   }
 }
 @media (max-width: 480px) {
@@ -601,20 +608,33 @@ main {
     font-size: 10px;
   }
   .statusCandidate p {
-    font-size: 8px;
+    font-size: 6px;
   }
   .statusCandidate img {
     top: 50%;
   }
   .statusCandidate span {
     top: 39%;
-    font-size: 8px;
+    font-size: 6px;
   }
 }
 @media (max-width: 450px) {
   main {
     width: 370px;
     height: 235px;
+  }
+  .statusCandidate p {
+    font-size: 5px;
+  }
+  .statusCandidate img {
+    top: 50%;
+  }
+  .statusCandidate span {
+    top: 39%;
+    font-size: 5px;
+  }
+  .display footer a {
+    font-size: 7px;
   }
 }
 @keyframes btnAnimation {
