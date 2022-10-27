@@ -48,7 +48,6 @@ export function finish() {
 	});
 
 	const audio = document.querySelector("audio");
-	audio.src = "../audio/somDaUrna.mp3";
 	audio.play();
 }
 
