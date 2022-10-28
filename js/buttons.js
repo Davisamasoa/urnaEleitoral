@@ -29,7 +29,12 @@ export const numPress = document.addEventListener("keydown", (e) => {
 	Sessions.handleInputs();
 });
 
-corrige.addEventListener("click", removeLastNumber);
+corrige.addEventListener("click", () => {
+	removeLastNumber();
+	removeLastNumber();
+	checkCandidate(inputPresident[0], inputPresident[1]);
+	Sessions.handleInputs();
+});
 
 branco.addEventListener("click", () => {
 	if (presidenteSession.style.display != "none") {
